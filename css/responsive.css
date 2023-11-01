@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1800px){
+    body{
+        width: 96%;
+    }
+}
+@media screen and (max-width: 1240px){
+    .section-top {
+        flex-wrap: wrap;
+      }
+    .about {
+        width: 100%;
+      }
+    .skill {
+        width: 100%;
+      }
+}
+@media screen and (max-width: 960px){
+    .m-btn {
+        display: block;
+    }
+    .nav ul {
+        display: none;
+    }
+    header .container .nav {
+        padding: 0;
+      }
+}
+@media screen and (max-width: 760px){}
+@media screen and (max-width: 320px){}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GaHyeon</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive CSS -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- JQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <!-- progress bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- JS -->
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <!-- mobile btn 영역 -->
+    <div class="m-btn">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+    <!-- moblie menu 영역 -->
+    <div class="m-nav">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skill</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <!-- mobile mask 영역 -->
+    <div class="window-mask"></div>
+    <!-- header 영역 -->
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <!-- pc menu 영역 -->
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skill</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <a href="#" class="resume-btn">이력서 다운로드</a>
+        </nav>
+      </div>
+    </header>
+    <!-- main 영역 -->
+    <main>
+      <div class="section-top container">
+        <section class="section-topL">
+          <!-- logo card -->
+          <div class="logo">
+            <div class="logo-wrap">
+              <a href="#"><h1>LOGO</h1></a>
+            </div>
+            <div class="text-wrap">
+              <a href="#"><h1>gahyeon</h1></a>
+            </div>
+          </div>
+          <!-- about card -->
+          <div class="about">
+            <h2 class="title">About</h2>
+            <div class="img-wrap">
+              <img src="images/profile.jpg" alt="">
+            </div>
+            <div class="text-wrap">
+              <p>
+                안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 <span>안녕하세요</span>안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요안녕하세요 안녕하세요 안녕하세요
+              </p>
+              <p>
+                안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 <span>안녕하세요</span> 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section-topR">
+          <!-- skill box -->
+          <div class="skill">
+            <h2 class="title">Skill</h2>
+            <div class="progress-area">
+              <div class="progress" id="ae">
+                <h3>AfterEffects</h3>
+              </div>
+              <div class="progress" id="pp">
+                <h3>PremierPro</h3>
+              </div>
+              <div class="progress" id="c4d">
+                <h3>Cinema4D</h3>
+              </div>
+              <div class="progress" id="html">
+                <h3>Html</h3>
+              </div>
+              <div class="progress" id="css">
+                <h3>CSS</h3>
+              </div>
+              <div class="progress" id="js">
+                <h3>JavaScript</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="section-bottom container">
+        <!-- portfolio card -->
+        <!-- <div class="portfolio">
+          <h2 class="title">Portfolio</h2>
+          <div class="portfolio-box">
+            <h3 class="portfolio-name">
+              TypoGhaphy
+            </h3>
+            <div class="img-box">
+              <a href="#"><img src="images/타이포.png" alt=""></a>
+            </div>
+            <div class="text-box">
+              <p>
+                사용 프로그램 : AfterEffects<br>
+                작업 기간 : 1개월 <br>
+                작품 설명 : 작품설명작품설명작품설명작품설명작품설명작품설명작품설명작품설명작품설명작품설명작품설명작품설명작품설명작품설명작품설명작품설명작품설명
+              </p>
+            </div>
+          </div>
+        </div> -->
+        <!-- contact card -->
+        <!-- <div class="contact">
+          <h2 class="title">Contact</h2>
+          <div class="text-box">
+            <p class="talk">KakaoTalk : abc123</p>
+            <p class="email">Email : abc123@naver.com</p>
+            <p class="phone">Phone : 010-1111-2222</p>
+          </div>
+          <div class="link-box">
+            <div class="insta-box">
+              <h3>instagram</h3>
+              <a href="#" class="btn"><i></i></a>
+            </div>
+            <div class="youtube-box">
+              <h3>youtube</h3>
+              <a href="#" class="btn"><i></i></a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </main>
+    <!-- footer 영역 -->
+    <!-- <footer>
+      <p>Copyright ⓒ GaHyeon Portfolio, All right reserved</p>
+    </footer> -->
+  </div>
+</body>
+</html>
